@@ -25,6 +25,8 @@ Plug 'dense-analysis/ale'
 
 " Git support
 Plug 'tpope/vim-fugitive'
+Plug 'tyru/open-browser.vim'
+Plug 'tyru/open-browser-github.vim'
 
 " Initialize plugin system
 call plug#end()

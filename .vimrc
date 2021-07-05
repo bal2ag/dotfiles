@@ -20,6 +20,12 @@ Plug 'flazz/vim-colorschemes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Linter
+Plug 'dense-analysis/ale'
+
+" Git support
+Plug 'tpope/vim-fugitive'
+
 " Initialize plugin system
 call plug#end()
 

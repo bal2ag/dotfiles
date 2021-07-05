@@ -32,3 +32,4 @@ set expandtab
 set ruler
 
 " autocmd bufnew,bufread *.jsx setlocal tw=120 tabstop=2 shiftwidth=2
+colorscheme Monokai

@@ -21,16 +21,21 @@ git --version
 ```
 iTerm2 -> Preferences -> Profiles -> Gear icon -> Import JSON Profiles... -> ~/.dotfiles/iterm2_profile_Alex_DevEnv.json
 ```
-8. Setup vim plugin manager:
-```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
-Open `vim` and run `:PlugInstall`
-9. Setup symlinks for each dotfile you want to use e.g.:
+8. Setup symlinks for each dotfile you want to use:
 ```
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ```
 ```
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ```
+9. [Install Homebrew](https://brew.sh/)
+10. Install the silver searcher:
+```
+brew install the_silver_searcher
+```
+11. Setup vim plugin manager:
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+Then open `vim` and run `:PlugInstall`

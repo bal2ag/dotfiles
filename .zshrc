@@ -104,6 +104,7 @@ alias postgres-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgr
 ###############################################################################
 source $HOME/projects/chefhub/profile
 
+eval "$(pyenv init -)"
 
 ###############################################################################
 # This stuff goes at the end

@@ -39,7 +39,17 @@ set shiftwidth=4
 set expandtab
 set ruler
 
-" autocmd bufnew,bufread *.jsx setlocal tw=120 tabstop=2 shiftwidth=2
+" disable pageup/pagedown
+nnoremap <PageUp> ^
+vnoremap <PageUp> ^
+inoremap <PageUp> <nop>
+nnoremap <PageDown> $
+vnoremap <PageDown> $
+inoremap <PageDown> <nop>
+
+autocmd bufnew,bufread *.jsx setlocal tw=120 tabstop=2 shiftwidth=2
+autocmd bufnew,bufread *.js setlocal tw=120 tabstop=2 shiftwidth=2
+autocmd bufnew,bufread *.html setlocal tw=120 tabstop=2 shiftwidth=2
 colorscheme Monokai
 
 " Linters for ALE
